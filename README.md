@@ -22,16 +22,16 @@ Usaremos as seguintes tecnologias:
 
 ## Planejamento das aulas
 27/11 | Introducao a noção de algoritmos, logica de programação e preparação do ambiente de desenvolvimento
-28/11 | Tipos de dados, variáveis, operadores aritméticos e lógicos
-29/11 | Autogestao 
+28/11 | Tipos de dados, variáveis, operadores aritméticos e lógicos   <br>
+29/11 | Autogestao <br>
 
-04/12 | Estrutura condicional
-05/12 | 
-06/12 | Autogestao
+04/12 | Estrutura condicional  <br>
+05/12 |                        <br>
+06/12 | Autogestao             <br>
 
-11/12 |
-12/12 | 
-13/12 |
+11/12 |                       <br>
+12/12 |                       <br>
+13/12 |                       <br>
 
 --- 
 <br>
@@ -42,10 +42,13 @@ Será incrível essa jornada de aprendizado! Qualquer dúvida ou sugestão podem
 - [instagram anab](https://www.instagram.com/anabtz.st/)
 - [instagram ana beatriz freitas](https://www.instagram.com/lua2798_/)
 
+
 - [linkedin anab](https://www.linkedin.com/in/anabsantoss/)
 - [linkedin ana beatriz freitas](https://www.linkedin.com/in/anabeatrizfreitas98/)
 
+
 - [github anab](https://github.com/anabiax)
 - [github lua2798beatriz](https://github.com/lua2798beatriz)
+
 
 - [github-pretalab](https://github.com/asilvaolabi)
