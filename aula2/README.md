@@ -11,7 +11,13 @@ Inicialmente, JavaScript foi projetado para atender demandas do front-end. Com o
 O NodeJS, conforme definido oficialmente, é um runtime, ou seja, um ambiente de execução composto por códigos, APIs (interfaces que facilitam a obtenção e manipulação de dados) e bibliotecas que possibilitam rodar programas JavaScript fora do navegador web. Ele funciona como um interpretador, permitindo que o JavaScript seja usado no servidor, diretamente pelo terminal. Essa flexibilidade foi o que inspirou o engenheiro de software Ryan Dahl a criar o NodeJS, um programa que você instala no computador para usar JavaScript de maneira menos limitada, expandindo seu uso para o back-end.
 
 <p align="center">
-  <img width="400" src="https://media.tenor.com/Yzeh4Z4UQuAAAAAC/viciadoemcodar.gif">
+  <img width="400" src="../img/javascript-vs-java.webp">
+</p> 
+
+> Java e JavaScript não são a mesma coisa.
+
+<p align="center">
+  <img width="400" src="../img/diferen-asentrejavaejavascript.jpg">
 </p> 
 
 

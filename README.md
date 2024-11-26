@@ -7,11 +7,11 @@ Este módulo tem por objetivo apresentar os conceitos introdutórios à lógica 
 Nossas aulas serão divididas por pastas e, ao final de cada aula, eu atualizarei o meu repositório para vocês possam acompanhar.
 
 ## Acordos
-Aqui é um ambiente seguro;
-Não existe pergunta boba;
-Pausas são importantes;
-Somos um coletivo;
-Bebam água;
+Aqui é um ambiente seguro; <br>
+Não existe pergunta boba; <br>
+Pausas são importantes; <br>
+Somos um coletivo; <br>
+Bebam água; <br>
 Feedbacks são tudo de bom.
 
 ## Ferramentas
