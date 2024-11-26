@@ -57,9 +57,9 @@ São estruturas mais complexas que podem conter coleções de valores:
     }
 
 > Dica importante: para verificar o tipo de um dado, use o operador typeof
-> console.log(typeof 23); // number
-> console.log(typeof 'ana'); // string
-> console.log(typeof true); // booleano
+> console.log(typeof 23); // number  <br>
+> console.log(typeof 'ana'); // string  <br>
+> console.log(typeof true); // booleano  <br>
 
 ## Variáveis e Constantes
 
