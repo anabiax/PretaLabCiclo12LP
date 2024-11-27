@@ -23,11 +23,11 @@ Usaremos as seguintes tecnologias:
 ## Planejamento das aulas
 27/11 | Introducao a noção de algoritmos, logica de programação e preparação do ambiente de desenvolvimento
 28/11 | Tipos de dados, variáveis, operadores aritméticos e lógicos   <br>
-29/11 | Autogestao <br>
+29/11 | Autogestao - exercícios práticos <br>
 
 04/12 | Estruturas de controle: condicionais e introdução aos laços de repetição <br>
 05/12 | Laços de repetição e funções     <br>
-06/12 | Autogestao             <br>
+06/12 | Autogestao - exercícios práticos <br>
 
 11/12 | Projeto final         <br>
 12/12 | Projeto final         <br>
