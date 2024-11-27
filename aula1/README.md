@@ -64,21 +64,8 @@ Esses processos que são desenvolvidos e executados em um computador servem para
 
 <details>
   <summary>Verificação de um número</summary>
-  <p>
-    A simbologia é o conjunto de formas geométricas e símbolos usados para representar diferentes etapas de um processo ou algoritmo. Cada forma tem um significado específico, como indicar ações, decisões, início ou fim, tornando mais fácil visualizar e compreender a lógica de um sistema ou programa. Ela ajuda a padronizar e comunicar ideias de forma clara
-  </p>
   <p align="center">
     <img src="https://drive.google.com/uc?export=download&id=1wAQOgzLTR1uKwqkl1LeJclewiGnSmaKC" width="500"/>
-  </p>
-  
-  <p>
-    Retângulo - representa uma ação ou processo a ser executado 
-  </p>
-  <p>
-    Losango - representa uma decisão ou condição 
-  </p>
-  <p>
-    Oval: representa o início ou fim do fluxo.
   </p>
 </details>
 
@@ -88,7 +75,18 @@ Esses processos que são desenvolvidos e executados em um computador servem para
   <p align="center">
     <img src="https://drive.google.com/uc?export=download&id=1w74rkg4STx9c8cjVUG35ONDb5BC-rRoE" width="300"/>
   </p>
-
+  <p>
+    A simbologia é o conjunto de formas geométricas e símbolos usados para representar diferentes etapas de um processo ou algoritmo. Cada forma tem um significado específico, como indicar ações, decisões, início ou fim, tornando mais fácil visualizar e compreender a lógica de um sistema ou programa. Ela ajuda a padronizar e comunicar ideias de forma clara
+  </p>
+  <p>
+    Retângulo - representa uma ação ou processo a ser executado 
+  </p>
+  <p>
+    Losango - representa uma decisão ou condição 
+  </p>
+  <p>
+    Oval: representa o início ou fim do fluxo.
+  </p>
 </details>
 
 <details>
