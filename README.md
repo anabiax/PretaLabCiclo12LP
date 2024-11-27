@@ -25,13 +25,13 @@ Usaremos as seguintes tecnologias:
 28/11 | Tipos de dados, variáveis, operadores aritméticos e lógicos   <br>
 29/11 | Autogestao <br>
 
-04/12 | Estrutura condicional  <br>
-05/12 |                        <br>
+04/12 | Estruturas de controle: condicionais e introdução aos laços de repetição <br>
+05/12 | Laços de repetição e funções     <br>
 06/12 | Autogestao             <br>
 
-11/12 |                       <br>
-12/12 |                       <br>
-13/12 |                       <br>
+11/12 | Projeto final         <br>
+12/12 | Projeto final         <br>
+13/12 | Último encontro       <br>
 
 --- 
 <br>
