@@ -63,6 +63,26 @@ Esses processos que são desenvolvidos e executados em um computador servem para
 </details>
 
 <details>
+  <summary>Verificação de um número</summary>
+  <p>
+    A simbologia é o conjunto de formas geométricas e símbolos usados para representar diferentes etapas de um processo ou algoritmo. Cada forma tem um significado específico, como indicar ações, decisões, início ou fim, tornando mais fácil visualizar e compreender a lógica de um sistema ou programa. Ela ajuda a padronizar e comunicar ideias de forma clara
+  </p>
+  <p align="center">
+    <img src="https://drive.google.com/uc?export=download&id=1wAQOgzLTR1uKwqkl1LeJclewiGnSmaKC" width="500"/>
+  </p>
+  
+  <p>
+    Retângulo - representa uma ação ou processo a ser executado 
+  </p>
+  <p>
+    Losango - representa uma decisão ou condição 
+  </p>
+  <p>
+    Oval: representa o início ou fim do fluxo.
+  </p>
+</details>
+
+<details>
   <summary>Verificação da lâmpada</summary>
   
   <p align="center">
@@ -81,15 +101,6 @@ Esses processos que são desenvolvidos e executados em um computador servem para
 </details>
 
 <details>
-  <summary>Verificação de um número</summary>
- 
-  <p align="center">
-    <img src="https://drive.google.com/uc?export=download&id=1wAQOgzLTR1uKwqkl1LeJclewiGnSmaKC" width="500"/>
-  </p>
-  
-</details>
-
-<details>
   <summary>Agora é sua vez</summary>
   
  ` Crie um algoritmo escrito em português para descrever a sua sequência de passos para decidir um almoço. ` 
@@ -102,7 +113,7 @@ Esses processos que são desenvolvidos e executados em um computador servem para
  💫 É agora que as coisas começam a ficar um pouco mais divertidas, então sejam muito bem vindas! 
 `
 
-Lógica executada até atingir um objetivo ou encontrar uma solução de um problema. São os passos que devemos seguir até encontrarmos uma solução para o programa que queremos construir ou para solucionar um problema encontrado no código.
+Lógica executada até atingir um objetivo ou encontrar uma solução de um problema. São os pequenos passos que devemos seguir até encontrarmos uma solução para o programa que queremos construir ou para solucionar um problema encontrado no código (processo chamado depuração).
 
 Olhando mais de perto para o desenvolvimento de aplicações, vemos uma subdivisão entre <b>back-end</b> e <b>front-end</b>.
 
@@ -111,12 +122,16 @@ Olhando mais de perto para o desenvolvimento de aplicações, vemos uma subdivis
 </p>
 
 <p align="center">
-  <img src="../img/backFront.jpg" width="500"/>
+  <img src="../img/backFront.jpg" width="500" />
 </p>
 
 <p align="center"> 
     <img src="https://www.dtidigital.com.br/wp-content/uploads/2021/08/Front-end.png" width="500"/>
 </p>
+  
+  - <b>Cliente:</b> é o dispositivo ou programa que faz uma solicitação de serviço. Função: Pede dados ou ações ao servidor.
+
+  - <b>Servidor:</b> é o dispositivo ou programa que processa e responde às solicitações do cliente. Função: Fornecer serviços, dados ou recursos.
 
   
 ### Linguagens de programação
