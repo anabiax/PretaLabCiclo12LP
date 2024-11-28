@@ -3,6 +3,8 @@
 ## Introdução a JavaScript
 Hoje vamos colocar a mão massa conhecendo a sintaxe básica da linguagem JavaScript. Lets que lets? 
 
+> Sintaxe: refere-se ao conjunto de regras e estruturas que definem como um código deve ser escrito e organizado para que a linguagem de programação o entenda e o execute corretamente. É como a gramática e a ortografia de uma linguagem falada ou escrita.
+
 ### JavaScript
 JavaScript é uma linguagem de programação criada originalmente para tornar os websites mais interativos. Graças a ela, foi possível desenvolver aplicações web modernas, onde o usuário pode interagir diretamente com a página sem precisar recarregá-la a cada ação. Além disso, o JavaScript também é amplamente utilizado em sites tradicionais para implementar funcionalidades interativas de maneira inteligente.
 
@@ -20,9 +22,17 @@ O NodeJS, conforme definido oficialmente, é um runtime, ou seja, um ambiente de
   <img width="400" src="../img/diferen-asentrejavaejavascript.jpg">
 </p> 
 
+  - <b>Linguagem compilada</b>: o código-fonte é convertido para um arquivo executável (código de máquina) por um compilador antes de ser executado.
+  
+  - <b>Linguagem interpretada</b>: o código-fonte é processado e executado linha a linha por um interpretador, sem gerar um arquivo binário independente.
+  Obs: o interpretador do NodeJS é baixado no momento em que você instala o próprio NodeJS no seu sistema.
 
 ### Tipos de dados primitivos
 São os tipos básicos e imutáveis de dados no JavaScript:
+
+<p align="center">
+  <img width="400" src="../img/tipos de dados.png">
+</p> 
 
 - `Number` representa um conjunto de dados numéricos positivos ou negativos, inteiros, reais ou decimais, também inclui valores especiais como NaN(Not-a-Number);
 
@@ -34,29 +44,36 @@ São os tipos básicos e imutáveis de dados no JavaScript:
 
 - `Undefined` um valor atribuído automaticamente a uma variável que foi declarada, mas não inicializada - é algo que nao foi definido;
 
-- `Symbol` introduzido no ES6, representa valores únicos e imutáveis;
+- `Symbol` introduzido no ES6, representa valores únicos e imutáveis, como um id;
 
 - `BigInt` introduzido no ES11, permite representar números inteiros maiores que o limite do tipo Number.
 
+<p align="center">
+  <img width="400" src="../img/Js-1.jpg">
+</p> 
+
+<p align="center">
+  <img width="400" src="../img/JAVA.png">
+</p> 
 
 ### Tipos de dados não primitivos
 São estruturas mais complexas que podem conter coleções de valores:
 
-- `Object` representa uma coleção de pares chave-valor;
-    const pessoa = {
-      nome: 'Ana',
-      idade: 23
+- `Object` representa uma coleção de pares chave-valor; <br>
+    const pessoa = { <br>
+      nome: 'Ana', <br>
+      idade: 23 <br>
     };
 
-- `Array` representa uma lista ordenada de valores;
+- `Array` representa uma lista ordenada de valores; <br>
     const numeros = [1, 2, 3, 4];
 
 - `Function` representa uma função reutilizável;
-    function soma(a, b) {
-      return a + b;
+    function soma(a, b) { <br>
+      return a + b; <br>
     }
 
-> Dica importante: para verificar o tipo de um dado, use o operador typeof
+> Dica importante: para verificar o tipo de um dado, use o operador typeof <br>
 > console.log(typeof 23); // number  <br>
 > console.log(typeof 'ana'); // string  <br>
 > console.log(typeof true); // booleano  <br>
@@ -87,7 +104,10 @@ As variáveis tem o poder de armazenar informações inseridas em nossos código
 <p align="center">
   <img width="400" src="https://juniortoexpert.com/wp-content/uploads/naming-convention-snake-case-kebab-case-camel-case.png">
 </p> 
-   
+
+<p align="center">
+  <img width="400" src="../img/styles.png">
+</p> 
 
 #### Bora praticar 
   Abra o VSCode
@@ -165,6 +185,7 @@ Existem algumas formas de manipular string:
 
 
 ## Operadores aritméticos e lógicos
+Os operadores aritméticos são usados para realizar cálculos matemáticos em linguagens de programação.
 
 ```javascript
 const soma = 10 + 2;
@@ -178,6 +199,10 @@ Além dos mais comuns citados acima existe também o módulo da divisão que con
 ```javascript
 const moduloDaDivisao = 10 % 10;
 ```
+
+<p align="center">
+  <img width="400" src="../img/modulo.jpg">
+</p> 
 
 ### Operadores de comparação e lógico
 
