@@ -25,10 +25,15 @@ O NodeJS, conforme definido oficialmente, é um runtime, ou seja, um ambiente de
   - <b>Linguagem compilada</b>: o código-fonte é convertido para um arquivo executável (código de máquina) por um compilador antes de ser executado.
   
   - <b>Linguagem interpretada</b>: o código-fonte é processado e executado linha a linha por um interpretador, sem gerar um arquivo binário independente.
+  <br>
   Obs: o interpretador do NodeJS é baixado no momento em que você instala o próprio NodeJS no seu sistema.
 
 ### Tipos de dados primitivos
 São os tipos básicos e imutáveis de dados no JavaScript:
+
+- <b>Tipagem dinâmica</b>: significa que o tipo de uma variável é determinado automaticamente pelo interpretador no momento da execução, em vez de ser declarado explicitamente pela desenvolvedora.
+  
+- <b>Tipagem estática </b>: significa que o programador deve declarar explicitamente o tipo da variável.
 
 <p align="center">
   <img width="400" src="../img/tipos de dados.png">
