@@ -73,7 +73,7 @@ São estruturas mais complexas que podem conter coleções de valores:
 - `Array` representa uma lista ordenada de valores; <br>
     const numeros = [1, 2, 3, 4];
 
-- `Function` representa uma função reutilizável;
+- `Function` representa uma função reutilizável; <br>
     function soma(a, b) { <br>
       return a + b; <br>
     }
