@@ -158,7 +158,7 @@ const modulo= numero1%numero2;
 </details>
 
 <details>
-  <summary>Prática 6: operações aritméticas. Crie duas constantes e exiba os cálculos no console:
+  <summary>Prática 6: operações aritméticas. Crie duas constantes e exiba os cálculos no console: <br>
   - idade: calcule a idade do seu amigo com base no ano atual <br>
   - anosAte100: calcule quantos anos faltam para ele completar 100 anos
 
@@ -174,13 +174,12 @@ const anosAte100 = 100 - idade;
 
 console.log(`Idade: ${idade}`);
 console.log(`Anos até 100: ${anosAte100}`);
-
   
 ```
 </details>
 
 <details>
-  <summary>Prática 7: operadores lógicos. Você é a segurança de uma festa e só permite a entrada de pessoas que:
+  <summary>Prática 7: operadores lógicos. Você é a segurança de uma festa e só permite a entrada de pessoas que: <br>
   - têm mais de 18 anos E <br>
   - estão vestindo roupas formais OU têm o convite VIP <br>
 
