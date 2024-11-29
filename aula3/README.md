@@ -151,7 +151,7 @@ const modulo= numero1%numero2;
   // nome completo em letras minúsculas
   console.log(`Nome completo em letras minúsculas: ${nomeCompleto.toLowerCase()}`);
 
-  // Verificar se o sentimento contém a palavra "feliz"
+  // Verificar se o sentimento contém a palavra "sextou"
   console.log(`Sentimento inclui "sextou": ${sentimento.includes("sextou")}`);
 
 ```
