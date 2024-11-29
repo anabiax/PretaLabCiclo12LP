@@ -23,8 +23,10 @@ Abra o VSCode
   <details>
     <summary>Pratica 3: Crie as seguintes constantes e em seguida use a criatividade para concatená-las formando uma frase: primeiro nome; último nome; ano de nascimento; cor preferida; hobby; um sentimento.
     </summary>
+ 
 
-    ```javascript
+```javascript
+
       const primeiroNome = Ana
       const ultimoNome = Santos
       const anoDeNascimento = 2001
@@ -34,8 +36,8 @@ Abra o VSCode
 
       console.log(`Meu nome é ${primeiroNome} ${ultimoNome}. Nascida no ano de ${anoDeNascimento}. Minha cor favorita é ${corPreferida}. Meu hobbie é ${hobbie} e meu atual sentimento é ${sentimento}`)
 
-    ```
-   </details>
+```
+  </details>
    
 ### Manipulação de strings
 
