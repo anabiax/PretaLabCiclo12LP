@@ -23,6 +23,18 @@ Abra o VSCode
   <details>
     <summary>Pratica 3: Crie as seguintes constantes e em seguida use a criatividade para concatená-las formando uma frase: primeiro nome; último nome; ano de nascimento; cor preferida; hobby; um sentimento.
     </summary>
+
+    ```javascript
+      const primeiroNome = Ana
+      const ultimoNome = Santos
+      const anoDeNascimento = 2001
+      const corPreferida = "laranja"
+      const hobbie = "fazer natacao"
+      const sentimento = "felicidade, porque sextou, bb!!"
+
+      console.log(`Meu nome é ${primeiroNome} ${ultimoNome}. Nascida no ano de ${anoDeNascimento}. Minha cor favorita é ${corPreferida}. Meu hobbie é ${hobbie} e meu atual sentimento é ${sentimento}`)
+
+    ```
    </details>
    
 ### Manipulação de strings
@@ -77,17 +89,90 @@ const or_ou = maiorQue || estritamenteDiferente;
 const not_nao = !estritamenteDiferente;
 ```
 
-#### Bora praticar 
+#### Bora praticar!!
 Abra o VSCode
 
 <details>
   <summary>Pratica 4: crie 2 constantes: numero1 e numero2, cada uma contendo um valor numérico. Em seguida, crie mais 5 constantes: soma, subtração, multiplicação, divisão e modulo, que contenha as reespectivas operações usando as constantes numero1 e numero2</summary>
 
 ```javascript
+const numero1 = 10;
+const numero2 = 4;
+
 const soma = numero1+numero2;
 const subtracao = numero1-numero2;
 const multiplicacao= numero1*numero2;
 const divisao= numero1/numero2;
 const modulo= numero1%numero2;
+```
+</details>
+
+
+<details>
+  <summary>Prática 5: usando as propriedades e métodos de string apresentados, faça:</summary>
+  - exiba o tamanho do nome completo (primeiro nome + espaço + último nome)
+  - exiba o nome completo em letras maiúsculas
+  - exiba o nome completo em letras minúsculas
+  - verifique se o sentimento contém a palavra "sextou" usando <b>includes<b>
+  
+```javascript
+  const nomeCompleto = "Ana Beatriz dos Santos"
+  const sentimento = "felicidade, porque sextou, bb!!"
+  const tamanhoSemEspacos = nomeCompleto.replace(/ /g, "").length;
+
+  // tamanho do nome completo
+  console.log(`Tamanho do nome completo: ${nomeCompleto.length}`)
+
+  // tamanho do nome sem espaço
+  console.log(`Tamanho do nome completo sem espaços: ${tamanhoSemEspacos}`);
+
+  // nome completo em letras maiúsculas
+  console.log(`Nome completo em letras maiúsculas: ${nomeCompleto.toUpperCase()}`);
+
+  // nome completo em letras minúsculas
+  console.log(`Nome completo em letras minúsculas: ${nomeCompleto.toLowerCase()}`);
+
+  // Verificar se o sentimento contém a palavra "feliz"
+  console.log(`Sentimento inclui "sextou": ${sentimento.includes("sextou")}`);
+
+```
+</details>
+
+<details>
+  <summary>Prática 6: operações aritméticas. Crie duas constantes:</summary>
+  - idade: calcule a idade do seu amigo com base no ano atual 
+  - anosAté100: calcule quantos anos faltam para ele completar 100 anos
+  
+```javascript
+
+const anoAtual = 2024;
+const anoDeNascimento = 2001;
+
+const idade = anoAtual - anoDeNascimento;
+const anosAté100 = 100 - idade;
+
+console.log(`Idade: ${idade}`);
+console.log(`Anos até 100: ${anosAté100}`);
+
+  
+```
+</details>
+
+<details>
+  <summary>Prática 6: operadores lógicos. Você é a segurança de uma festa e só permite a entrada de pessoas que:</summary>
+  - têm mais de 18 anos E 
+  - estão vestindo roupas formais OU têm o convite VIP <br>
+
+  Crie 3 variaveis: idade, roupaFormal (booleano) e temConviteVIP (booleano). Use operadores lógicos para determinar se a pessoa pode entrar ou não. 
+
+```javascript
+
+const idade = 20;
+const roupaFormal = true;
+const temConviteVIP = false;
+
+const podeEntrar = idade > 18 && (roupaFormal || temConviteVIP);
+console.log(`Pode entrar na festa: ${podeEntrar}`);
+
 ```
 </details>
