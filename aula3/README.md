@@ -73,6 +73,7 @@ const moduloDaDivisao = 10 % 10;
 </p> 
 
 ### Operadores de comparação e lógico
+Os operadores lógicos são símbolos ou palavras que são utilizados para conectar mais de uma expressão, mais corriqueiramente dentro de uma linguagem de programação. 
 
 ```javascript
 // Comparação
@@ -84,10 +85,25 @@ const menorQue = 2 < 10;
 const menorOuIgualQue = 10 <= 10;
 
 // Lógicos
-const and_e = estritamenteIgual && maiorQue;
-const or_ou = maiorQue || estritamenteDiferente;
-const not_nao = !estritamenteDiferente;
+const and_e = estritamenteIgual && maiorQue;    // todas as condicoes devem ser atendidas para que o resultado seja verdadeiro
+const or_ou = maiorQue || estritamenteDiferente; // pelo menos uma condicao deve ser atendida para que o resultado seja verdadeiro
+const not_nao = !estritamenteDiferente; // inverte o resultado final
 ```
+
+#### Tabela verdade operador lógico AND (e)
+<p align="center">
+  <img width="400" src="../img/And.png">
+</p> 
+
+#### Tabela verdade operador lógico OR (ou)
+<p align="center">
+  <img width="400" src="../img/or.png">
+</p> 
+
+#### Tabela verdade operador lógico NOT (nao)
+<p align="center">
+  <img width="400" src="../img/not.png">
+</p> 
 
 #### Bora praticar!!
 Abra o VSCode
@@ -109,12 +125,13 @@ const modulo= numero1%numero2;
 
 
 <details>
-  <summary>Prática 5: usando as propriedades e métodos de string apresentados, faça:</summary>
-  - exiba o tamanho do nome completo (primeiro nome + espaço + último nome)
-  - exiba o nome completo em letras maiúsculas
-  - exiba o nome completo em letras minúsculas
+  <summary>Prática 5: usando as propriedades e métodos de string apresentados, faça:
+  - exiba o tamanho do nome completo (primeiro nome + espaço + último nome) <br>
+  - exiba o nome completo em letras maiúsculas <br>
+  - exiba o nome completo em letras minúsculas <br>
   - verifique se o sentimento contém a palavra "sextou" usando <b>includes<b>
-  
+  </summary>
+
 ```javascript
   const nomeCompleto = "Ana Beatriz dos Santos"
   const sentimento = "felicidade, porque sextou, bb!!"
@@ -139,31 +156,37 @@ const modulo= numero1%numero2;
 </details>
 
 <details>
-  <summary>Prática 6: operações aritméticas. Crie duas constantes:</summary>
-  - idade: calcule a idade do seu amigo com base no ano atual 
-  - anosAté100: calcule quantos anos faltam para ele completar 100 anos
-  
+  <summary>Prática 6: operações aritméticas. Crie duas constantes e exiba os cálculos no console:
+  - idade: calcule a idade do seu amigo com base no ano atual <br>
+  - anosAte100: calcule quantos anos faltam para ele completar 100 anos
+
+  </summary>
+
 ```javascript
 
 const anoAtual = 2024;
 const anoDeNascimento = 2001;
 
 const idade = anoAtual - anoDeNascimento;
-const anosAté100 = 100 - idade;
+const anosAte100 = 100 - idade;
 
 console.log(`Idade: ${idade}`);
-console.log(`Anos até 100: ${anosAté100}`);
+console.log(`Anos até 100: ${anosAte100}`);
 
   
 ```
 </details>
 
 <details>
-  <summary>Prática 6: operadores lógicos. Você é a segurança de uma festa e só permite a entrada de pessoas que:</summary>
-  - têm mais de 18 anos E 
+  <summary>Prática 7: operadores lógicos. Você é a segurança de uma festa e só permite a entrada de pessoas que:
+  - têm mais de 18 anos E <br>
   - estão vestindo roupas formais OU têm o convite VIP <br>
 
-  Crie 3 variaveis: idade, roupaFormal (booleano) e temConviteVIP (booleano). Use operadores lógicos para determinar se a pessoa pode entrar ou não. 
+  <br>
+
+  Crie 3 variaveis: idade, roupaFormal (booleano) e temConviteVIP (booleano) e use operadores lógicos para determinar se a pessoa pode entrar ou não. 
+
+</summary>
 
 ```javascript
 
