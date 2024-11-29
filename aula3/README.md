@@ -27,8 +27,8 @@ Abra o VSCode
 
 ```javascript
 
-      const primeiroNome = Ana
-      const ultimoNome = Santos
+      const primeiroNome = "Ana"
+      const ultimoNome = "Santos"
       const anoDeNascimento = 2001
       const corPreferida = "laranja"
       const hobbie = "fazer natacao"
