@@ -122,7 +122,7 @@ if (a > b){
     <summary>Resolução</summary>
  
   ```javascript
-  // receber dois números do usuário
+  // receber dois números 
   const numero1 = 100
   const numero2 = 2
 
@@ -258,6 +258,7 @@ i = 3, soma = 3+3 = 6
 i = 4, soma = 6+4 = 10
 
 após o loop exibir no console a soma total calculada -> a mensagem é interpolada com o valor de N e o resultado armazenado em soma
+*/
 
 ```
   </details>
