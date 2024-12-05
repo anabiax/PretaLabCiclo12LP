@@ -101,14 +101,14 @@ switch (true) {
 ```
 
   <details>
-    <summary>Desafio: Calculadora Completa. Crie uma função chamada calculadora que receba três parâmetros: dois números e o operador (+, -, *, /). <br> 
+    <summary>Desafio: Calculadora Completa. Crie uma função chamada calcular que receba três parâmetros: dois números e o operador (+, -, *, /). <br> 
     - use um switch para realizar a operação
     </summary>
     
 
 ```javascript
 
-function calculadora(a, b, operador) {
+function calcular(a, b, operador) {
   switch (operador) {
     case "+":
       return a + b;
@@ -123,9 +123,9 @@ function calculadora(a, b, operador) {
   }
 }
 
-console.log(calculadora(10, 5, "+")); // 15
-console.log(calculadora(10, 5, "/")); // 2
-console.log(calculadora(10, 5, "%")); // Operador inválido!
+console.log(calcular(10, 5, "+")); // 15
+console.log(calcular(10, 5, "/")); // 2
+console.log(calcular(10, 5, "%")); // Operador inválido!
 
 ```
   </details>
