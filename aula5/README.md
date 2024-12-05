@@ -1,11 +1,6 @@
 ## 🔁 Estruturas de repetição
 
-Estruturas de repetições repetem determinado bloco de comandos enquanto a condição atende ao requisito. As estruturas de repetição são representadas por `while`, `do while` e `for`.
-
-
-<p align="center">
-  <img width="600" src= "https://wiki.sj.ifsc.edu.br/images/7/7c/Fig039_MCO018703.jpg"> 
- </p>
+As estruturas de repetição repetem determinado bloco de comandos enquanto a condição atende ao requisito. As estruturas de repetição são representadas por `while`, `do while` e `for`.
   
 ### while
 
@@ -69,8 +64,10 @@ while (i <= 20) {
 }
 ```
 </details>
+
+E se eu quiser visualizar todos os números pares entre 1 e 20?
  
- <details> <summary><b>Prática 4:</b> Faça um algoritmo que conte de 10 até 1 (contagem regressiva) utilizando o laço `while`.</summary>
+ <details> <summary><b>Prática 2:</b> Faça um algoritmo que conte de 10 até 1 (contagem regressiva) utilizando o laço `while`.</summary>
 
 ```javascript
 let i = 10; // início da contagem regressiva
@@ -135,7 +132,7 @@ console.log(resultado);
 // arrow function equivalente
 const calcularSoma = (a, b) => a + b;
 
-// sem omitir as palavras reservadas e as chaves: const soma = (a, b) => { return a + b };
+// sem omitir as palavras reservadas e as chaves: const calcularSoma = (a, b) => { return a + b };
 
 ```
 
@@ -171,7 +168,7 @@ apresentar("Ana", 23); // Olá, meu nome é Ana e tenho 23 anos.
 
   <details>
     <summary>Prática 1: Crie uma função para verificar se um número é par ou ímpar <br> 
-    - receba um número como parâmetro.
+    - receba um número como parâmetro. <br>
     - retorne "par" ou "ímpar"
     </summary>
     
@@ -191,7 +188,6 @@ console.log(verificarParOuImpar(7)); // ímpar
 ```
   </details>
 
---
 
   <details>
     <summary>Prática 2: Crie uma função que conte quantas palavras existem em uma frase. <br> 
