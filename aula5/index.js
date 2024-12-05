@@ -1,7 +1,8 @@
-let nome = "Ana Beatriz";
-let i = 0;
+let i = 10;
 
-while(i <= 10){
-    console.log(nome[i])
-    i++ 
-}
+do {
+    console.log("um texto qualquer");
+    i++;
+} while (i < 10)
+
+console.log("fim")

@@ -25,6 +25,8 @@ while(i<11){
 }
  ```
 
+### Exemplo 2
+
  ```javascript
  // passar por todos os caracteres de uma palavra 
 
@@ -45,9 +47,16 @@ while(i <= 10){
 do{
   declaracao
 }while (condicao);
+
+// faça
+// enquanto
+
+// executa primeiro os comandos e depois testa a expressao lógica
+// se retornar false ele vai ter executado o bloco de comando pelo menos uma vez, assim sai do loop e continua a execucao do programa
+
 ```
 
-### Exemplo 2
+### Exemplo 3
 Vamos declarar uma variável e iniciá-la em 0. Enquanto for menor que 5 (condição passada no bloco `do while`), ela passará novamente pelo bloco do e acrescentará um número inicial de variável.
 
 ```javascript
@@ -57,6 +66,22 @@ do {
     console.log("O contador vale:" + i);
     i++;
 } while (i < 5)
+```
+
+### Exemplo 4
+
+```javascript
+let i = 10;
+
+do {
+    console.log("um texto qualquer");
+    i++;
+} while (i < 10)
+
+console.log("fim")
+
+// eu garanto que o loop foi iterado pelo menos uma vez
+
 ```
 
 #### 🏋🏽 Bora praticar 
