@@ -21,7 +21,19 @@ let i = 0;
 
 while(i<11){
     console.log(`${i} x 5 = ${i*5}`)
-    i++
+    i++ // NUNCA ESQUECER DESSE INCREMENTADOR P/ SAIR DO WHILE QND ATINGIR A CONDICAO. CASO CONTRARIO ENTRARÁ NO LOOP INFINITO
+}
+ ```
+
+ ```javascript
+ // passar por todos os caracteres de uma palavra 
+
+let nome = "Ana Beatriz";
+let i = 0;
+
+while(i <= 10){
+    console.log(nome[i])
+    i++ 
 }
  ```
  
