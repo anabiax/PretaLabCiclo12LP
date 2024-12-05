@@ -16,6 +16,7 @@
 - [performance](https://www.agenciadoale.com.br/glossario/o-que-e-back-end-performance/)
 - [padroes arquiteturais](https://www.alura.com.br/artigos/padroes-arquiteturais-arquitetura-software-descomplicada?srsltid=AfmBOoomrJoBDUGjcOvEhoaOxkd1j6WmrdASWGIHKt5TLcL2gGyRXgKp)
 - [segurança de dados](https://www.alura.com.br/empresas/artigos/seguranca-da-informacao?srsltid=AfmBOorPqKqe7aRyFbbWw-Ilk6vNanAc0QPvDCNYmM9UkYCpT3bOMkfk)
+- [Diferença entre for, while e do while](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 
 ### Recomendações
