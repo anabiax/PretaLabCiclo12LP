@@ -20,9 +20,9 @@ switch (expressao) {
 
 ```
 
- <b>case</b>: define um valor ou condição a ser comparada com a expressão
- <b>break</b>: interrompe a execução do bloco do switch. Sem ele, a execução continua para o próximo caso
- <b>default</b>: um caso opcional que é executado quando nenhum dos outros casos é atendido. O default age como o else de um bloco if-else
+ <b>case</b>: define um valor ou condição a ser comparada com a expressão <br>
+ <b>break</b>: interrompe a execução do bloco do switch. Sem ele, a execução continua para o próximo caso <br>
+ <b>default</b>: um caso opcional que é executado quando nenhum dos outros casos é atendido. O default age como o else de um bloco if-else <br>
 
 
   <b>Exemplo pratico 1: </b> dias da semana
@@ -108,44 +108,21 @@ switch (operacao) {
 }
 ```
 
-<b>Exemplo pratico 4: </b> categorias de idade
-
-```javascript
-const idade = 18;
-
-switch (true) {
-  case idade < 12:
-    console.log("Você é uma criança.");
-    break;
-  case idade >= 12 && idade < 18:
-    console.log("Você é um adolescente.");
-    break;
-  case idade >= 18 && idade < 60:
-    console.log("Você é um adulto.");
-    break;
-  case idade >= 60:
-    console.log("Você é um idoso.");
-    break;
-  default:
-    console.log("Idade inválida.");
-}
-```
-
 ### Bora praticar 
 
 #### 1. Declare a variável 'idade', atribua um valor. Faça que programa exiba uma mensagem dizendo se o usuário é ou não menor de idade.
 
-#### 2. Calcule a média aritmética de 3 números.
+#### 2. Declare a variável 'idade', atribua um valor. Faça que programa exiba uma mensagem dizendo se o usuário é uma criança, um adolescente, um adulto, um idoso ou se a idade é invalida.
 
-#### 3. Escreva um código JavaScript para exibir os números de 1 até 1000 na tela.
+#### 3. Calcule a média aritmética de 3 números.
 
-#### 4. Vamos ajudar, Júlia? Ela precisa estudar a tabuada do 9. Em código JavaScript, crie uma tabuada do 9 e armazene, em seguida, imprima em tela.
+#### 4. Escreva um código JavaScript para exibir os números de 1 até 1000 na tela.
 
-#### 5. Imprima os números de  0 até 40 na tela e em seguida, quantos números pares e quantos números ímpares foram impressos.
+#### 5. Em código JavaScript, crie uma tabuada do 9 e armazene, em seguida, imprima em tela.
 
-#### 6. Você está num restaurante e quer comer alguma coisa no almoço. Então, você diz:
-<sub>Conteúdos abordados: operadores relacionais e estrutura condicional</sub>
+#### 6. Imprima os números de  0 até 40 na tela e em seguida, quantos números pares e quantos números ímpares foram impressos.
 
+#### 7. Você está num restaurante e quer comer alguma coisa no almoço. Então, você diz:
  > Por favor, me veja uma feijoada **E** um suco de laranja”
  
 Seria muito triste se você recebesse apenas a bebida ou só a comida, não é? 
@@ -156,30 +133,24 @@ Crie duas variáveis em JS, uma deve conter o prato e a outra a bebida. Quando o
 
 ---
 
-#### 7. Crie uma constante que receba a nota de uma pessoa candidata em um desafio técnico e atribua a ela um valor entre 1 e 100. Implemente uma lógica que verifique se a pessoa candidata foi aprovada, reprovada ou se essa pessoa está na lista de espera. 
-<sub>Conteúdos abordados: operadores relacionais e estrutura condicional</sub>
+#### 8. Crie uma constante que receba a nota de uma pessoa candidata em um desafio técnico e atribua a ela um valor entre 1 e 100. Implemente uma lógica que verifique se a pessoa candidata foi aprovada, reprovada ou se essa pessoa está na lista de espera. 
 
 Para isso, considere as seguintes informações: 
 * Se a nota for maior ou igual a 80, imprima "Parabéns, você faz parte do grupo das pessoas aprovadas!".
 * Se a nota for menor que 80 e maior ou igual a 60, imprima "Você está na nossa lista de espera".
 * Se a nota for menor que 60, imprima "Infelizmente, você reprovou." .
 
-Crie uma estrutura condicional utilizando o if, else if e else para criar o seu algoritmo, e os operadores lógicos que se aplicam a cada situação. Altere o valor da nota para verificar se as condições que você implementou funcionam.
+---
+
+#### 9. Defina 2 constantes que salvem valores numericos diferentes. Utilize if/else para escrever um código que retorne o maior dos dois números
 
 ---
 
-#### 8. Defina 2 constantes que salvem valores numericos diferentes. Utilize if/else para escrever um código que retorne o maior dos dois números
-<sub>Conteúdos abordados: operadores relacionais e estrutura condicional</sub>
+#### 10. Defina 3 constantes que salvem valores numericos diferentes. Utilize if/else para escrever um código que retorne o maior de três números.
 
 ---
 
-#### 9. Defina 3 constantes que salvem valores numericos diferentes. Utilize if/else para escrever um código que retorne o maior de três números.
-<sub>Conteúdos abordados: operadores aritméticos e estrutura condicional</sub>
-
----
-
-#### 10. Siga as instruções abaixo:
-<sub>Conteúdos abordados: operadores relacionais e estrutura condicional</sub>
+#### 11. Siga as instruções abaixo:
 
 a. Crie uma constante chamada "horarioAtual", que receba um número entre 4 e 24 de sua escolha, para representar as horas do dia.
 b. Crie uma variável chamada "mensagem" que, inicialmente, é uma string vazia. 
@@ -193,8 +164,7 @@ d. Por fim, dê um console.log na variável "mensagem".
 
 ---
 
-#### 11. Utilize if/else para escrever um código que converta uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. 
-<sub>Conteúdos abordados: Tabela verdade, Estrutura Condicional</sub>
+#### 12. Utilize if/else para escrever um código que converta uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. 
 
   Siga essas regras:
   ```
