@@ -17,6 +17,7 @@
 - [padroes arquiteturais](https://www.alura.com.br/artigos/padroes-arquiteturais-arquitetura-software-descomplicada?srsltid=AfmBOoomrJoBDUGjcOvEhoaOxkd1j6WmrdASWGIHKt5TLcL2gGyRXgKp)
 - [segurança de dados](https://www.alura.com.br/empresas/artigos/seguranca-da-informacao?srsltid=AfmBOorPqKqe7aRyFbbWw-Ilk6vNanAc0QPvDCNYmM9UkYCpT3bOMkfk)
 - [Diferença entre for, while e do while](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
+- [JavaScript forEach()](https://www.devmedia.com.br/javascript-foreach-executando-uma-funcao-para-cada-elemento-de-um-array/39808)
 
 
 ### Recomendações
